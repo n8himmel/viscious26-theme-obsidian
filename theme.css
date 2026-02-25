@@ -283,6 +283,7 @@ settings:
 	--C010-RGB: 238, 129, 241;
 	--C011: #f181c5;
 	--C011-RGB: 241, 129, 197;
+	--C012-RGB: 180, 180, 180;
 }
 
 /*================================================*/
@@ -2070,148 +2071,52 @@ body:is(.vibrant-folders) [data-type="bookmarks"] .tree-item {
 	--icon-color: var(--000);
 }
 
+/* Color Reference:
+   C001 = Rose (241,129,150)    C007 = Mint (129,241,164)
+   C002 = Peach (241,154,129)   C008 = Cyan (139,227,235)
+   C003 = Gold (241,201,129)    C009 = Purple (171,139,235)
+   C004 = YellowGreen (227,235,139)  C010 = Magenta (238,129,241)
+   C005 = Lime (188,241,129)    C011 = Pink (241,129,197)
+   C006 = Green (141,241,129)   C012 = Gray (180,180,180) [default]
+*/
+
+/* === Default: light gray for unmapped folders === */
 body:not(.vibrant-folders)
-	.nav-folder-children
-	> .nav-folder:nth-child(11n + 2),
-body:not(.vibrant-folders)
-	.nav-files-container
-	> div
-	> .nav-folder:nth-child(11n + 2),
-body:not(.vibrant-folders)
-	[data-type="bookmarks"]
-	.tree-item:nth-child(11n + 2) {
-	--colorful: var(--C001-RGB);
+	.nav-files-container > div > .nav-folder {
+	--colorful: var(--C012-RGB);
 }
 
+/* === _AREAS folder: Cyan === */
 body:not(.vibrant-folders)
-	.nav-folder-children
-	> .nav-folder:nth-child(11n + 3),
-body:not(.vibrant-folders)
-	.nav-files-container
-	> div
-	> .nav-folder:nth-child(11n + 3),
-body:not(.vibrant-folders)
-	[data-type="bookmarks"]
-	.tree-item:nth-child(11n + 3) {
-	--colorful: var(--C002-RGB);
-}
-
-body:not(.vibrant-folders)
-	.nav-folder-children
-	> .nav-folder:nth-child(11n + 4),
-body:not(.vibrant-folders)
-	.nav-files-container
-	> div
-	> .nav-folder:nth-child(11n + 4),
-body:not(.vibrant-folders)
-	[data-type="bookmarks"]
-	.tree-item:nth-child(11n + 4) {
-	--colorful: var(--C003-RGB);
-}
-
-body:not(.vibrant-folders)
-	.nav-folder-children
-	> .nav-folder:nth-child(11n + 5),
-body:not(.vibrant-folders)
-	.nav-files-container
-	> div
-	> .nav-folder:nth-child(11n + 5),
-body:not(.vibrant-folders)
-	[data-type="bookmarks"]
-	.tree-item:nth-child(11n + 5) {
-	--colorful: var(--C004-RGB);
-}
-
-body:not(.vibrant-folders)
-	.nav-folder-children
-	> .nav-folder:nth-child(11n + 6),
-body:not(.vibrant-folders)
-	.nav-files-container
-	> div
-	> .nav-folder:nth-child(11n + 6),
-body:not(.vibrant-folders)
-	[data-type="bookmarks"]
-	.tree-item:nth-child(11n + 6) {
-	--colorful: var(--C005-RGB);
-}
-
-body:not(.vibrant-folders)
-	.nav-folder-children
-	> .nav-folder:nth-child(11n + 7),
-body:not(.vibrant-folders)
-	.nav-files-container
-	> div
-	> .nav-folder:nth-child(11n + 7),
-body:not(.vibrant-folders)
-	[data-type="bookmarks"]
-	.tree-item:nth-child(11n + 7) {
-	--colorful: var(--C006-RGB);
-}
-
-body:not(.vibrant-folders)
-	.nav-folder-children
-	> .nav-folder:nth-child(11n + 8),
-body:not(.vibrant-folders)
-	.nav-files-container
-	> div
-	> .nav-folder:nth-child(11n + 8),
-body:not(.vibrant-folders)
-	[data-type="bookmarks"]
-	.tree-item:nth-child(11n + 8) {
-	--colorful: var(--C007-RGB);
-}
-
-body:not(.vibrant-folders)
-	.nav-folder-children
-	> .nav-folder:nth-child(11n + 9),
-body:not(.vibrant-folders)
-	.nav-files-container
-	> div
-	> .nav-folder:nth-child(11n + 9),
-body:not(.vibrant-folders)
-	[data-type="bookmarks"]
-	.tree-item:nth-child(11n + 9) {
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="_AREAS"]) {
 	--colorful: var(--C008-RGB);
 }
 
+/* === _PROJECTS folder: Purple === */
 body:not(.vibrant-folders)
-	.nav-folder-children
-	> .nav-folder:nth-child(11n + 10),
-body:not(.vibrant-folders)
-	.nav-files-container
-	> div
-	> .nav-folder:nth-child(11n + 10),
-body:not(.vibrant-folders)
-	[data-type="bookmarks"]
-	.tree-item:nth-child(11n + 10) {
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="_PROJECTS"]) {
 	--colorful: var(--C009-RGB);
 }
 
+/* === _RESOURCES folder: Gold === */
 body:not(.vibrant-folders)
-	.nav-folder-children
-	> .nav-folder:nth-child(11n + 11),
-body:not(.vibrant-folders)
-	.nav-files-container
-	> div
-	> .nav-folder:nth-child(11n + 11),
-body:not(.vibrant-folders)
-	[data-type="bookmarks"]
-	.tree-item:nth-child(11n + 11) {
-	--colorful: var(--C010-RGB);
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="_RESOURCES"]) {
+	--colorful: var(--C003-RGB);
 }
 
+/* === _ARCHIVES folder: Peach === */
 body:not(.vibrant-folders)
-	.nav-folder-children
-	> .nav-folder:nth-child(11n + 12),
-body:not(.vibrant-folders)
-	.nav-files-container
-	> div
-	> .nav-folder:nth-child(11n + 12),
-body:not(.vibrant-folders)
-	[data-type="bookmarks"]
-	.tree-item:nth-child(11n + 12) {
-	--colorful: var(--C011-RGB);
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="_ARCHIVES"]) {
+	--colorful: var(--C002-RGB);
 }
+
+/* === Add more pattern groups here === */
+/* Example:
+body:not(.vibrant-folders)
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path^="B0"]) {
+	--colorful: var(--C009-RGB);
+}
+*/
 .nav-files-container .nav-folder.nav-folder .nav-folder,
 [data-type="bookmarks"] .tree-item .tree-item {
 	--colorful: inherit;
