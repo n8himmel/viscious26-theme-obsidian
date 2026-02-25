@@ -1,4 +1,20 @@
 <br>
+
+> **Viscious26** is a personal fork of the excellent [Vicious](https://github.com/zaheralmajed/vicious-theme-obsidian) theme by [Zaher Al Majed](https://zaher.design). Thank you Zaher for creating such a beautiful, minimal theme — this fork builds on your work with a few tweaks for my own workflow.
+
+---
+
+## Changes from upstream
+
+| Change | Description |
+|--------|-------------|
+| Active file highlight | Yellow (`#ffeb3b`) background on the active file in the file explorer, replacing the original transparent style |
+| Daily notes font | Monospace font for daily note filenames (`daily/` folder) in the file explorer |
+| Theme rename | Forked as `Viscious26` to avoid conflicts with upstream updates |
+
+---
+
+<br>
 <p align="center">
 <img width="120" height="120" src="https://raw.githubusercontent.com/zaheralmajed/vicious-theme-obsidian/main/assets/logo.png" alt="Vicious Logo">
 </p>
