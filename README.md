@@ -1,6 +1,6 @@
 <br>
 
-> **Viscious26** is a personal fork of the excellent [Vicious](https://github.com/zaheralmajed/vicious-theme-obsidian) theme by [Zaher Al Majed](https://zaher.design). Thank you Zaher for creating such a beautiful, minimal theme — this fork builds on your work with a few tweaks for my own workflow.
+> **Viscious26** is a personal fork of the excellent [Vicious](https://github.com/zaheralmajed/vicious-theme-obsidian) theme by [Zaher Al Majed](https://zaher.design). Thank you Zaher for creating such a beautiful, sleek & immersive theme — this fork builds on your work with a few tweaks for my own workflow.
 
 ---
 
