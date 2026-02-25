@@ -2086,28 +2086,34 @@ body:not(.vibrant-folders)
 	--colorful: var(--C012-RGB);
 }
 
-/* === _AREAS folder: Cyan === */
+/* === 0_INBOX folder: Gold === */
 body:not(.vibrant-folders)
-	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="_AREAS"]) {
-	--colorful: var(--C008-RGB);
-}
-
-/* === _PROJECTS folder: Purple === */
-body:not(.vibrant-folders)
-	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="_PROJECTS"]) {
-	--colorful: var(--C009-RGB);
-}
-
-/* === _RESOURCES folder: Gold === */
-body:not(.vibrant-folders)
-	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="_RESOURCES"]) {
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="0_INBOX"]) {
 	--colorful: var(--C003-RGB);
 }
 
-/* === _ARCHIVES folder: Peach === */
+/* === 1_PROJECTS folder: Magenta === */
 body:not(.vibrant-folders)
-	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="_ARCHIVES"]) {
-	--colorful: var(--C002-RGB);
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="1_PROJECTS"]) {
+	--colorful: var(--C010-RGB);
+}
+
+/* === 2_AREAS folder: Cyan === */
+body:not(.vibrant-folders)
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="2_AREAS"]) {
+	--colorful: var(--C008-RGB);
+}
+
+/* === 8_RESOURCES folder: Purple === */
+body:not(.vibrant-folders)
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="8_RESOURCES"]) {
+	--colorful: var(--C009-RGB);
+}
+
+/* === 9_ARCHIVES folder: Lime === */
+body:not(.vibrant-folders)
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="9_ARCHIVES"]) {
+	--colorful: var(--C005-RGB);
 }
 
 /* === Add more pattern groups here === */
