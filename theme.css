@@ -513,6 +513,11 @@ settings:
 	--icon-color: var(--000);
 	--callout-RGB: var(--600-RGB);
 	--nav-item-color: var(--000);
+	--nav-item-color-active: var(--000);
+	--nav-item-color-selected: var(--000);
+	--nav-item-color-highlighted: var(--000);
+	--nav-item-background-active: transparent;
+	--nav-item-background-selected: transparent;
 }
 
 /*================================================*/
@@ -621,6 +626,11 @@ settings:
 	--icon-color: var(--800);
 	--callout-RGB: var(--200-RGB);
 	--nav-item-color: var(--800);
+	--nav-item-color-active: var(--800);
+	--nav-item-color-selected: var(--800);
+	--nav-item-color-highlighted: var(--800);
+	--nav-item-background-active: transparent;
+	--nav-item-background-selected: transparent;
 }
 
 /*================================================*/
@@ -2295,6 +2305,23 @@ body:not(.is-grabbing) .tree-item-self.is-clickable:hover {
 .nav-file-title.is-active {
 	background-color: #ffeb3b;
 	border-radius: inherit;
+	color: var(--800) !important;
+	transition: none !important;
+}
+body:not(.vibrant-folders) .nav-files-container .nav-folder .nav-file-title {
+	transition: none !important;
+}
+body:not(.vibrant-folders) .nav-files-container .nav-folder .nav-file-title.is-active {
+	background-color: #ffeb3b !important;
+	color: var(--800) !important;
+}
+.nav-file-title.is-flashing,
+.nav-folder-title.is-flashing,
+.tree-item-self.is-flashing {
+	animation: none !important;
+	transition: none !important;
+	background-color: inherit !important;
+	color: inherit !important;
 }
 
 .nav-file-title[data-path^="daily/"] .nav-file-title-content {
