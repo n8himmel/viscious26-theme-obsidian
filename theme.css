@@ -2102,15 +2102,27 @@ body:not(.vibrant-folders)
 	--colorful: var(--C003-RGB);
 }
 
-/* === 1_PROJECTS folder: Magenta === */
+/* === 1_PROJECTS folder: === */
 body:not(.vibrant-folders)
 	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="1_PROJECTS"]) {
 	--colorful: var(--C010-RGB);
 }
 
-/* === 2_AREAS folder: Cyan === */
+/* === 2_QUESTS folder: === */
 body:not(.vibrant-folders)
-	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="2_AREAS"]) {
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="2_QUESTS"]) {
+	--colorful: var(--C010-RGB);
+}
+
+/* === 3_AREAS folder:  === */
+body:not(.vibrant-folders)
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="3_AREAS"]) {
+	--colorful: var(--C008-RGB);
+}
+
+/* === 7_SHARED folder:  === */
+body:not(.vibrant-folders)
+	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="7_SHARED"]) {
 	--colorful: var(--C008-RGB);
 }
 
