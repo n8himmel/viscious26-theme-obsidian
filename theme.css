@@ -283,6 +283,8 @@ settings:
 	--C010-RGB: 238, 129, 241;
 	--C011: #f181c5;
 	--C011-RGB: 241, 129, 197;
+	--C013: #f0f0f0;
+	--C013-RGB: 127, 127, 127;
 	--C012-RGB: 180, 180, 180;
 }
 
@@ -2111,13 +2113,13 @@ body:not(.vibrant-folders)
 /* === 2_QUESTS folder: === */
 body:not(.vibrant-folders)
 	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="2_QUESTS"]) {
-	--colorful: var(--C010-RGB);
+	--colorful: var(--C001-RGB);
 }
 
 /* === 3_AREAS folder:  === */
 body:not(.vibrant-folders)
 	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="3_AREAS"]) {
-	--colorful: var(--C008-RGB);
+	--colorful: var(--C006-RGB);
 }
 
 /* === 7_SHARED folder:  === */
@@ -2126,16 +2128,16 @@ body:not(.vibrant-folders)
 	--colorful: var(--C008-RGB);
 }
 
-/* === 8_RESOURCES folder: Purple === */
+/* === 8_RESOURCES folder:  === */
 body:not(.vibrant-folders)
 	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="8_RESOURCES"]) {
 	--colorful: var(--C009-RGB);
 }
 
-/* === 9_ARCHIVES folder: Lime === */
+/* === 9_ARCHIVES folder:  === */
 body:not(.vibrant-folders)
 	.nav-files-container > div > .nav-folder:has(> .nav-folder-title[data-path="9_ARCHIVES"]) {
-	--colorful: var(--C005-RGB);
+	--colorful: var(--C013-RGB);
 }
 
 /* === Add more pattern groups here === */
