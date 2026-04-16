@@ -1,0 +1,73 @@
+/* ── ONYX Boox — forced light mode ──────────────────────────────
+   Enable under Appearance → CSS snippets → boox-light-mode
+   Overrides .theme-dark variables with light mode values.
+──────────────────────────────────────────────────────────────── */
+
+.theme-dark {
+  --background-secondary-alt: var(--000);
+  --background-primary: var(--000);
+  --ribbon-background: var(--000);
+  --background-secondary: var(--000);
+  --callout-content-background: var(--000);
+  --interactive-normal: var(--000);
+  --modal-Color: var(--000-RGB);
+  --input-color: var(--000);
+  --shadow-open-tabs: var(--000);
+  --metadata-background-color: var(--000);
+  --tab-container-background: var(--000);
+  --mono-rgb-0: var(--000-RGB);
+  --color-base-00: var(--000);
+  --color-base-05: var(--000);
+  --color-base-10: var(--100);
+  --color-base-20: var(--100);
+  --blockquote-background-color: var(--100);
+  --th-bg: var(--100);
+  --file-color-RGB: var(--100-RGB);
+  --nav-color: var(--000-RGB);
+  --card-color: var(--100);
+  --side-dock-color: var(--100);
+  --pill-background: var(--100);
+  --text-selection: var(--200);
+  --code-background: var(--100);
+  --hr-color: var(--100);
+  --background-modifier-cover: rgba(var(--000-RGB), 1);
+  --background-modifier-hover: var(--100);
+  --line-highlight-color: rgba(var(--100-RGB), 0);
+  --heading-count-bg-color: var(--100);
+  --table-border-color: var(--200);
+  --color-base-25: var(--300);
+  --color-base-30: var(--300);
+  --interactive-hover: var(--200);
+  --tab-outline-color: var(--300);
+  --select-color: var(--200);
+  --collapse-icon-color: var(--400);
+  --color-base-35: var(--400);
+  --color-base-40: var(--400);
+  --text-faint: var(--300);
+  --color-base-50: var(--500);
+  --text-highlight-bg-rgb: var(--300-RGB);
+  --color-base-60: var(--600);
+  --text-muted: var(--300);
+  --color-base-70: var(--700);
+  --color-base-100: var(--800);
+  --text-normal: var(--800);
+  --metadata-label-text-color: var(--800);
+  --checklist-textColor: var(--800);
+  --list-marker-color: var(--800);
+  --collapse-icon-color-collapsed: var(--800);
+  --checklist-textColor1: var(--800) !important;
+  --mono-rgb-100: var(--800-RGB);
+  --callout-default: var(--800-RGB);
+  --callout-RGB: var(--200-RGB);
+  --icon-color: var(--800);
+  --nav-item-color: var(--800);
+  --nav-item-color-active: var(--800);
+  --nav-item-color-selected: var(--800);
+  --nav-item-color-highlighted: var(--800);
+  --nav-item-background-active: transparent;
+  --nav-item-background-selected: transparent;
+  --divider-color: transparent;
+  --metadata-label-background-active: transparent;
+  --heading-count-color: var(--text-muted);
+  --checkbox-border-color: var(--text-muted);
+}
