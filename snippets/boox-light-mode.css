@@ -3,7 +3,7 @@
    Overrides .theme-dark variables with light mode values.
 ──────────────────────────────────────────────────────────────── */
 
-.theme-dark {
+.is-mobile.theme-dark {
   --background-secondary-alt: var(--000);
   --background-primary: var(--000);
   --ribbon-background: var(--000);
